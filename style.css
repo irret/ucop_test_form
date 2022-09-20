@@ -1,0 +1,66 @@
+main {
+    width: 60%;
+
+    padding: 100px;
+}
+
+
+.redasterisk {
+    color: #FF1515;
+}
+
+.flex-container {
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+.lbl {
+    width: 180px;
+    padding-top: 7px;
+    padding-right: 40px;
+
+}
+
+.input_field {
+    width: 350px;
+    vertical-align: middle;
+}
+
+p,
+.lbl {
+    color: #656565;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#submitbutton {
+    background-color: #005480;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    width: 160px;
+    margin-top: 15px;
+
+}
+
+#sign_up input[type="text"],
+input[type="tel"],
+input[type="email"],
+#sign_up select {
+    width: 345px;
+    height: 25px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+}
+
+fieldset {
+    display: flex;
+}
+
+#radioGroup {
+    margin-top: 15px;
+}
